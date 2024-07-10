@@ -40,16 +40,18 @@ nav{
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 35px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 40px;
     margin-top: 50px;
+    letter-spacing: 0%;
 }
 .banner-container p{
     margin: 50px 50px 0 50px;
     color: rgb(13, 19, 33);
     font-family: Azeret Mono;
     font-size: 13px;
-    font-weight: 400;  
+    font-weight: 400;
+    letter-spacing: 0%;
 }
 .banner-btn{
     height: 50px;
@@ -85,6 +87,7 @@ nav{
     font-weight: 600;
     line-height: 30px;
     margin: 100px 0 0 0;
+    letter-spacing: 0%;
 }
 .Explanation-heading p{
     color: rgb(13, 19, 33);
@@ -93,6 +96,7 @@ nav{
     font-weight: 300;
     line-height: 16px;
     margin: 30px 100px 0 100px;
+    letter-spacing: 0%;
 }
 .Explanation-content{
     display: flex;
@@ -111,6 +115,7 @@ nav{
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+    letter-spacing: 0%;
 }
 .Explanation-content p{
     width: 500px;
@@ -120,6 +125,7 @@ nav{
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
+    letter-spacing: 0%;
 }
 .Explanation-content button{
     margin: 20px 0 0 30px;
@@ -154,6 +160,7 @@ nav{
     font-size: 20px;
     font-weight: 700;
     line-height: 30px;
+    letter-spacing: 0%;
 }
 .Explantion-secondary p{
     width: 500px;
@@ -163,6 +170,7 @@ nav{
     font-size: 13px;
     font-weight: 400;
     line-height: 20px;
+    letter-spacing: 0%;
 }
 .Explantion-secondary button{
     margin: 20px 30px 0 0;
@@ -178,7 +186,41 @@ nav{
 .Explain-tertiary-image{
     margin: 0 70px 10px 0;
 }
+/* My Inspiration Portion */
+.Inspiration{
+    margin: 50px 130px 0 130px;
+}
 .Inspiration-primary{
     text-align: center;
-
+}
+.Inspiration-primary h1{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 27px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0%;
+}
+.Inspiration-primary p{
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0%;
+    margin: 30px 100px 0 100px;
+}
+/* Inspiration video */
+.Inspiration-video .yt-video{
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 10px;
+    width: 600px;
+    margin: 50px 100px 0 170px;
+}
+.yt-video{
+    text-align: center;
+    padding: 20px;
+}
+iframe{
+    border-radius: 9px;
 }
