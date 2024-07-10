@@ -20,6 +20,9 @@ nav{
     font-weight: 500;
     font-family: Azeret Mono;
 }
+.btn-second{
+    cursor: pointer;
+}
 nav h2{
     color: rgb(13, 19, 33);
     font-size: 20px;
@@ -365,7 +368,7 @@ iframe{
 }
 /* footer contact media section  */
 .contact-container{
-    margin-top: 20px;
+    margin-top: 30px;
     display: flex;
     justify-content: space-between;
     padding: 20px 50px;
