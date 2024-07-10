@@ -65,6 +65,13 @@ nav{
 .banner-container button{
     margin: 50px 510px 44px 510px;
 }
+/* Why Web development section */
+.Explanation{
+    padding: 40px 60px ;
+    border-radius: 10px;
+    box-shadow: 0px 6px 50px 0px rgba(13, 19, 33, 0.04);
+    margin: 50px 130px 0 130px;
+}
 .Explanation-heading{
     display: flex;
     flex-direction: column;
@@ -86,6 +93,92 @@ nav{
     font-weight: 300;
     line-height: 16px;
     margin: 30px 100px 0 100px;
-
+}
+.Explanation-content{
+    display: flex;
+    justify-content: space-between;
+    text-align: left;
+    margin: 100px 120px 80px 20px;
+    padding: 10px 5px;
+}
+.Explanation-primary-content{
+    text-align: center;   
+}
+.Explanation-content h3{
+    margin: 10px 0 0 30px;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.Explanation-content p{
+    width: 500px;
+    margin: 20px 0 0 30px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.Explanation-content button{
+    margin: 20px 0 0 30px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 3px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.Explain-primary-image{
+    margin: 0 50px 0 0;
+}
+.Explantion-secondary{
+    display: flex;
+    justify-content:center;
+    gap: 100px;
+    padding: 10px 5px;
+}
+.Explanation-secondary-content{
+    text-align: center;   
+}
+.Explantion-secondary-imgage{
+    margin: 0 0 0 30px;
+}
+.Explantion-secondary h3{    
+    margin: 10px 30px 0 0;
+    color: rgba(13, 19, 33, 0.7);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+}
+.Explantion-secondary p{
+    width: 500px;
+    margin: 20px 30px 0 0;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.Explantion-secondary button{
+    margin: 20px 30px 0 0;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding: 5px 3px;
+    background-color: transparent;
+    border: 1px solid black;
+}
+.Explain-tertiary-image{
+    margin: 0 70px 10px 0;
+}
+.Inspiration-primary{
+    text-align: center;
 
 }
